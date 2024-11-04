@@ -1,4 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
 .purchased {
-text-decoration: line-through;
-color: brown;
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+#clearListBtn {
+    color: rgb(10, 5, 5);
+    background-color: rgb(228, 56, 13);
+    border-radius: 10px;
+    top: 10%;
+    left: 40%;
+
+}
+#addItemBtn {
+    color: #090911;
+    background-color: rgb(21, 235, 74);
+    border-radius: 10px;
+
 }
